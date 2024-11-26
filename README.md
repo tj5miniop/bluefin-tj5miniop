@@ -1,3 +1,4 @@
+[![build-ublue-custom](https://github.com/tj5miniop/bluefin-custom/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/bluefin-custom/actions/workflows/build.yml)
 
 <img src="Bluefin-Logo.png" style="border-radius:12px">
 
