@@ -25,7 +25,7 @@ rpm-ostree install filelight fastfetch
 rpm-ostree install vlc
 
 #Driver installation - Nvidia refresh - Use 'akmod' driver which behaves likes the '-dkms' driver you see in arch based distros
-rpm-ostree install akmod-nvidia
+#rpm-ostree install akmod-nvidia
 
 #### Example for enabling a System Unit File
 systemctl enable libvirtd
