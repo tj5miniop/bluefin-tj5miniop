@@ -1,6 +1,5 @@
-# image-template
 
-
+<img src="Bluefin-Logo.png" style="border-radius:12px">
 
 # Bluefin-custom
 
@@ -9,7 +8,7 @@ My own Custom variant of Universal Blue's Bluefin.
 Features -
   - Nvidia Support Built-in
   - distrobox configured to my liking
-  - Easy-To-Use first setup script
+  - Easy-To-Use first-launch setup, along with Bluefin's setup
   - QEMU & KVM pre-installed
   - firefox installed as a native packages
   - GAMING support through flatpak & Distrobox
@@ -19,11 +18,17 @@ Features -
 
 
 
+Credit goes to the Universal Blue team, they have done amazing work so far on making linux ready for the future, all this repo is doing is combining all the amazing things they do into one "Sort-of-Distro" for personal use
+
+## Rebasing 
+
+The image currently has not reached a stable state so rebasing is currently not supported yet
 
 
 
+# Why Bluefin? Why not Bazzite? 
 
-
+- While I am a gamer, Bluefin suits me more because I do a lot of development in my spare time. I usually game within an Arch Linux distrobox environment anyway and it just works. Bluefin (as far as I can see) also provides a better experience with GNOME overall, which seems more stable. 
 
 
 
