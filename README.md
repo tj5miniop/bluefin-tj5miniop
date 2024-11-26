@@ -4,10 +4,9 @@
 
 # Bluefin-custom
 
-My own Custom variant of Universal Blue's Bluefin.
+My own Custom variant of Universal Blue's Bluefin, which I use on my laptop and other systems, (my main rig runs a very similar setup but on CachyOS instead)
 
 Features -
-  - Nvidia Support Built-in
   - distrobox configured to my liking
   - Easy-To-Use first-launch setup, along with Bluefin's setup
   - QEMU & KVM pre-installed
