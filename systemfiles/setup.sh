@@ -1,6 +1,10 @@
 #!/bin/bash
 
-gsettings set org.gnome.desktop.interface gtk-theme "Sweet-ambar-blue-dark"
-gsettings set org.gnome.desktop.interface icon-theme 'Papirus'
-gsettings set org.gnome.desktop.wm.preferences theme "Sweet"
-gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/wallpaper.jpg
+mkdir /tmp/bluefin-custom
+cd /tmp/bluefin-custom
+
+curl -O https://raw.githubusercontent.com/tj5miniop/ublue-scripts/refs/heads/Main/bluefin/build.sh
+curl -O https://raw.githubusercontent.com/tj5miniop/ublue-scripts/refs/heads/Main/bluefin/setup.sh
+
+bash build.sh
+bash setup.sh
