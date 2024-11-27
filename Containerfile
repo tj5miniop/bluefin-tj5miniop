@@ -49,12 +49,11 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 ## the following RUN directive does all the things required to run "build.sh" as recommended.
 
 COPY build.sh /tmp/build.sh
-COPY systemfiles/setup.sh /tmp/setup.sh
+COPY systemfiles/setup.sh /etc/skel/first-setup.sh
 COPY systemfiles/backgrounds/wallpaper.jpg /usr/share/backgrounds/wallpaper.jpg
 
 RUN mkdir -p /var/lib/alternatives && \
     /tmp/build.sh && \
-    /tmp/setup.sh && \
     ostree container commit
 ## NOTES:
 # - /var/lib/alternatives is required to prevent failure with some RPM installs
