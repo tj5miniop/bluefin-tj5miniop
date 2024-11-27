@@ -21,8 +21,8 @@ rpm-ostree install sweet-gtk-theme obs-studio distrobox
 rpm-ostree install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
 # FileLight from KDE is only temporary until a 
 rpm-ostree install filelight fastfetch
-# this would install a package from rpmfusion
-rpm-ostree install vlc
+# Install VLC and Others - NOTICE - A web browser is not included 
+rpm-ostree install vlc flatseal host-spawn jetbrains-mono-fonts
 
 #Driver installation - Nvidia refresh - Use 'akmod' driver which behaves likes the '-dkms' driver you see in arch based distros
 #rpm-ostree install akmod-nvidia
