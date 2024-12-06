@@ -22,7 +22,7 @@ rpm-ostree install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect g
 # FileLight from KDE is only temporary until a 
 rpm-ostree install filelight fastfetch
 # Install VLC and Others - NOTICE - A web browser is not included 
-rpm-ostree install vlc flatseal host-spawn jetbrains-mono-fonts
+rpm-ostree install flatseal host-spawn jetbrains-mono-fonts
 
 #Driver installation - Nvidia refresh - Use 'akmod' driver which behaves likes the '-dkms' driver you see in arch based distros
 #rpm-ostree install akmod-nvidia
