@@ -4,7 +4,7 @@
 
 # Bluefin-custom
 
-My own Custom variant of Universal Blue's Bluefin, which I use on my laptop and other systems, (my main rig runs a very similar setup but on CachyOS instead)
+My own Custom variant of Fedora Silverblue, which I use on my laptop and other systems, (my main rig runs a very similar setup but on CachyOS instead)
 
 Features -
   - distrobox configured to my liking
@@ -26,9 +26,9 @@ The image currently has not reached a stable state so rebasing is currently not 
 
 
 
-# Why Bluefin? Why not Bazzite? 
+# Why not base the image on Bluefin instead of normal Fedora Silverblue
 
-- While I am a gamer, Bluefin suits me more because I do a lot of development in my spare time. I usually game within an Arch Linux distrobox environment anyway and it just works. Bluefin (as far as I can see) also provides a better experience with GNOME overall, which seems more stable. 
+- As Project Bluefin is open-source, it should be easy for me to implement/mimic features from Bluefin into my custom image. By using Universal Blue's Fedora Silverblue-based image as the upstream for my projects, some changes are already implemented
 
 
 
