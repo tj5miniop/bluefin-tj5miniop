@@ -6,7 +6,7 @@
 
 # Bluefin-tj5miniop: A Custom Variant of Universal Blue's Bluefin
 
-**Bluefin-tj5miniop** is a personalized variant of Universal Blue's **Bluefin** OS, developed with additional features and optimizations aimed at creating my primary operating system. Once fully developed and tested, this project will integrate advanced capabilities while maintaining a bleeding-edge experience. 
+**Bluefin-tj5miniop** is a personalized variant of Universal Blue's **Bluefin** OS, developed with additional features and optimizations aimed at creating a stable, capable and bleeding-edge OS for some of my systems, with an NVIDIA image for easier deployment on NVIDIA systems. Once fully developed and tested, this project will integrate advanced capabilities while maintaining a bleeding-edge experience. 
 
 ---
 
