@@ -24,12 +24,7 @@
 
 ## Rebasing from Bluefin
 
-This repository is an enhancement of the **Bluefin** OS. The modifications introduced here include additional features, customization, and configurations. The underlying structure of Bluefin is maintained, so rebasing should (theoretically) be safe. **Note:** rpm-ostree is deprecated, and I'm currently investigating how to work with bootc.
-
----
-
-## Rebasing from Bluefin
-As this is currently under development, rebasing isn't supported as of yet
+This repository is an enhancement of **Project Bluefin** so rebasing should (theoretically) be safe. **Note:** rpm-ostree is deprecated, and I'm currently investigating how to work with bootc.
 
 ## Contributing
 
