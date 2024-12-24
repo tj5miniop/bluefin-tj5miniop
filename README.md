@@ -1,39 +1,45 @@
 [![build-ublue-custom](https://github.com/tj5miniop/bluefin-custom/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/bluefin-custom/actions/workflows/build.yml)
 
-<img src="Bluefin-Logo.png" style="border-radius:12px">
+<p align="center">
+  <img src="Bluefin-Logo.png" alt="Bluefin Logo" style="border-radius:12px; width:200px;">
+</p>
 
-# Bluefin-custom
+# Bluefin-tj5miniop: A Custom Variant of Universal Blue's Bluefin
 
-My own Custom variant of Fedora Silverblue, which I use on my laptop and other systems, (my main rig runs a very similar setup but on CachyOS instead)
+**Bluefin-tj5miniop** is a personalized variant of Universal Blue's **Bluefin** OS, developed with additional features and optimizations aimed at creating my primary operating system. Once fully developed and tested, this project will integrate advanced capabilities while maintaining a bleeding-edge experience. 
 
-Features -
-  - distrobox configured to my liking
-  - Easy-To-Use first-launch setup, along with Bluefin's setup
-  - QEMU & KVM pre-installed
-  - firefox installed as a native packages
-  - GAMING support through flatpak & Distrobox
-  - Development through devpod & Distrobox
-  - Primary Support & integration for Arch Linux Custom Container Images (Built by me)
-  - X11 support (in the works) for certain software such as Unreal Engine 5 to work properly
+---
 
+## Features
 
+- **Distrobox Configuration**: Custom configuration of Distrobox, tailored to my workflow.
+- **Pre-installed Virtualization**: QEMU and KVM pre-installed for easy virtualization.
+- **Native Firefox**: Firefox installed as a native package for web browsing.
+- **Gaming Support**: A custom script builds a Distrobox image using Arch Linux, utilizing CachyOS's repos and tweaks to enhance gaming performance.
+- **Arch Linux Custom Container Integration**: Full support for Arch Linux-based custom container images (built by me).
+- **X11 Support**: Ongoing work to enable proper X11 support for software like Unreal Engine 5.
+- **Nvidia Driver Support**: Full integration of Nvidia drivers for enhanced performance.
 
-Credit goes to the Universal Blue team, they have done amazing work so far on making linux ready for the future, all this repo is doing is combining all the amazing things they do into one "Sort-of-Distro" for personal use
+---
 
-## Rebasing 
+## Rebasing from Bluefin
 
-The image currently has not reached a stable state so rebasing is currently not supported yet
+This repository is an enhancement of the **Bluefin** OS. The modifications introduced here include additional features, customization, and configurations. The underlying structure of Bluefin is maintained, so rebasing should (theoretically) be safe. **Note:** rpm-ostree is deprecated, and I'm currently investigating how to work with bootc.
 
+---
 
+## Rebasing from Bluefin
+As this is currently under development, rebasing isn't supported as of yet
 
-# Why not base the image on Bluefin instead of normal Fedora Silverblue
+## Contributing
 
-- As Project Bluefin is open-source, it should be easy for me to implement/mimic features from Bluefin into my custom image. By using Universal Blue's Fedora Silverblue-based image as the upstream for my projects, some changes are already implemented
+If you’d like to contribute to this project, please feel free to fork the repository, submit a pull request, or open an issue for discussion. Contributions are welcome, and guidelines will be provided as the project matures.
 
+---
 
+## Credits
 
-
-
+This project is based on **Universal Blue's Bluefin**, which provides an excellent foundation for making Linux future-ready. I have added my customizations and tweaks to create a personalized experience, but the core credit goes to the fantastic work of the Universal Blue team.
 
 
 # TO REMOVE LATER
