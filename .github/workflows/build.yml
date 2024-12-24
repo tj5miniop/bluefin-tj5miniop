@@ -1,5 +1,5 @@
 ---
-name: build-ublue-custom
+name: build-bluefin-tj5miniop
 on:
   pull_request:
     branches:
