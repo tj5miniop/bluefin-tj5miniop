@@ -49,6 +49,7 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 ## the following RUN directive does all the things required to run "build.sh" as recommended.
 
 COPY build.sh /tmp/build.sh
+COPY systemfiles/modprobe.d/nvidia.conf /etc/modprobe.d/nvidia.conf
 COPY systemfiles/setup.sh /etc/skel/first-setup.sh
 COPY systemfiles/backgrounds/wallpaper.jpg /usr/share/backgrounds/wallpaper.jpg
 
