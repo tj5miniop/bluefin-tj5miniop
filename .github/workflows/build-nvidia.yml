@@ -1,5 +1,5 @@
 ---
-name: build-bluefin-tj5miniop-nvidia
+name: seabreeze-bazzite-nvidia-open
 on:
   pull_request:
     branches:
@@ -15,7 +15,7 @@ on:
 
 env:
   MY_IMAGE_NAME: "${{ github.event.repository.name }}-nvidia"  # the name of the image produced by this build, matches repo names
-  MY_IMAGE_DESC: "Project Bluefin, customized to my liking (NVIDIA image)"
+  MY_IMAGE_DESC: "Bazzite, made by Universal Blue, adapted to fit my needs"
   IMAGE_REGISTRY: "ghcr.io/${{ github.repository_owner }}"  # do not edit
 
 concurrency:
