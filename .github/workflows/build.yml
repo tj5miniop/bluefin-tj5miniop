@@ -14,8 +14,8 @@ on:
   workflow_dispatch:
 
 env:
-  MY_IMAGE_NAME: "${{ github.event.repository.name }}"  # the name of the image produced by this build, matches repo names
-  MY_IMAGE_DESC: "My Customized Universal Blue Image"
+  MY_IMAGE_NAME: "${{ github.event.repository.name }}-bluefin-tj5miniop"  # the name of the image produced by this build, matches repo names
+  MY_IMAGE_DESC: "Project Bluefin, with added extras. For general use on systems running Intel/AMD GPU's"
   IMAGE_REGISTRY: "ghcr.io/${{ github.repository_owner }}"  # do not edit
 
 concurrency:
