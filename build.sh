@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO - Switch from rpm-ostree to bootc ONCE UPSTREAM HAS FULLY SWITCHED
+
 set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
@@ -19,8 +21,10 @@ rpm-ostree install podman
 rpm-ostree install obs-studio distrobox 
 # Gnome extension as well as X11 support as it is disabled by default on Fedora 41+
 rpm-ostree install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
-# FileLight from KDE is only temporary until a 
-rpm-ostree install filelight fastfetch
+# baobab
+rpm-ostree install filelight baobab p
+# Icon themes and base packages for saucepan (https://github.com/tj5miniop/saucepan)
+rpm-ostree install papirus-icon-theme
 # Install VLC and Others - NOTICE - A web browser is not included 
 rpm-ostree install flatseal host-spawn jetbrains-mono-fonts
 
