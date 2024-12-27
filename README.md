@@ -4,9 +4,9 @@
   <img src="Bluefin-Logo.png" alt="Bluefin Logo" style="border-radius:12px; width:200px;">
 </p>
 
-# Bluefin-tj5miniop: A Custom Variant of Universal Blue's Bluefin
+# tj5miniop's Universal Blue Images: A Custom Variant of Universal Blue's Bluefin & Bazzite
 
-**Bluefin-tj5miniop** is a personalized variant of Universal Blue's **Bluefin** OS, developed with additional features and optimizations aimed at creating a stable, capable and bleeding-edge OS for some of my systems, with an NVIDIA image for easier deployment on NVIDIA systems. Once fully developed and tested, this project will integrate advanced capabilities while maintaining a bleeding-edge experience. 
+**Bluefin-tj5miniop** is a personalized variant of Universal Blue's **Bluefin** and **Bazzite** OS, developed with additional features and optimizations aimed at creating a stable, capable and bleeding-edge OS for some of my systems, with an NVIDIA image for easier deployment on NVIDIA systems. Once fully developed and tested, this project will integrate advanced capabilities while maintaining a bleeding-edge experience. 
 
 ---
 
