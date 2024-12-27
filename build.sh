@@ -22,7 +22,7 @@ rpm-ostree install obs-studio distrobox
 # Gnome extension as well as X11 support as it is disabled by default on Fedora 41+
 rpm-ostree install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
 # baobab
-rpm-ostree install filelight baobab p
+rpm-ostree install filelight baobab papirus-icon-theme
 # Icon themes and base packages for saucepan (https://github.com/tj5miniop/saucepan)
 rpm-ostree install papirus-icon-theme
 # Install VLC and Others - NOTICE - A web browser is not included 
