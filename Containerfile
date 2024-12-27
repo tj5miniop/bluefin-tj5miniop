@@ -50,7 +50,7 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 
 COPY build.sh /tmp/build.sh
 COPY systemfiles/setup.sh /etc/skel/first-setup.sh
-COPY systemfiles/backgrounds/ublue-tj5miniop/usr/share/backgrounds/ublue-tj5miniop
+COPY systemfiles/backgrounds/ublue-tj5miniop /usr/share/backgrounds/ublue-tj5miniop
 
 RUN mkdir -p /var/lib/alternatives && \
     /tmp/build.sh && \
