@@ -26,9 +26,6 @@ dnf install filelight
 # Icon themes and base packages for saucepan (https://github.com/tj5miniop/saucepan)
 dnf install papirus-icon-theme
 
-# Flatpak 
-flatpak update
-
 #Remove firefox and other GNOME stuff in the image 
 flatpak remove org.mozilla.firefox
 flatpak remove org.gnome.Maps
