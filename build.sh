@@ -12,6 +12,9 @@ RELEASE="$(rpm -E %fedora)"
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
+#UPDATE
+dnf upgrade
+
 # this installs a package from fedora repos
 dnf install papirus-icon-theme
 dnf install qemu virt-manager edk2-ovmf
@@ -24,6 +27,9 @@ dnf install filelight papirus-icon-theme
 dnf install papirus-icon-theme
 # Install VLC and Others - NOTICE - A web browser is not included 
 dnf install host-spawn
+
+#Cleanup
+dnf clean all
 
 #### Example for enabling a System Unit File
 systemctl enable libvirtd
