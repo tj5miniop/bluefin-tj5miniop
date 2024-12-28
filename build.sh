@@ -16,17 +16,23 @@ RELEASE="$(rpm -E %fedora)"
 ## dnf upgrade - Currently not supported with immutable container images
 
 # this installs a package from fedora repos
-dnf install papirus-icon-theme
+dnf install papirus-icon-theme fastfetch
 #dnf install qemu virt-manager edk2-ovmf - I don't need QEMU/virt-manager as of yet. Bazzite/Bluefin have a script which will automatically set this up
 dnf install podman distrobox 
 # Gnome extension as well as X11 support as it is disabled by default on Fedora 41+
 dnf install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
 # filelight
-dnf install filelight papirus-icon-theme
+dnf install filelight
 # Icon themes and base packages for saucepan (https://github.com/tj5miniop/saucepan)
 dnf install papirus-icon-theme
-# Install VLC and Others - NOTICE - A web browser is not included 
-dnf install host-spawn
+
+# Flatpak 
+flatpak update
+
+#Remove firefox and other GNOME stuff in the image 
+flatpak remove org.mozilla.firefox
+flatpak remove org.gnome.Maps
+
 
 #Cleanup
 dnf clean all
