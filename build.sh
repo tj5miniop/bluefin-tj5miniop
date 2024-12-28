@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# TODO - Switch from rpm-ostree to bootc ONCE UPSTREAM HAS FULLY SWITCHED
+#Script redone to support DNF5 & bootc
 
 set -ouex pipefail
 
