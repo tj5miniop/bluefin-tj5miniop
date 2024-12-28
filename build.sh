@@ -5,7 +5,10 @@
 set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
+## Cleanup!
 
+rpm-ostree refresh-md --force
+rpm-ostree cleanup -m
 
 ### Install packages
 
@@ -17,16 +20,15 @@ RELEASE="$(rpm -E %fedora)"
 # this installs a package from fedora repos
 rpm-ostree install papirus-icon-theme
 rpm-ostree install qemu virt-manager edk2-ovmf
-rpm-ostree install podman
-rpm-ostree install obs-studio distrobox 
+rpm-ostree install podman distrobox 
 # Gnome extension as well as X11 support as it is disabled by default on Fedora 41+
 rpm-ostree install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
 # baobab
-rpm-ostree install filelight baobab papirus-icon-theme
+rpm-ostree install filelight papirus-icon-theme
 # Icon themes and base packages for saucepan (https://github.com/tj5miniop/saucepan)
 rpm-ostree install papirus-icon-theme
 # Install VLC and Others - NOTICE - A web browser is not included 
-rpm-ostree install flatseal host-spawn jetbrains-mono-fonts
+rpm-ostree install host-spawn
 
 #### Example for enabling a System Unit File
 systemctl enable libvirtd
