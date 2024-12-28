@@ -31,6 +31,5 @@ dnf install host-spawn
 #Cleanup
 dnf clean all
 
-#### Example for enabling a System Unit File
-systemctl enable libvirtd
+#### Enable podman
 systemctl enable podman.socket
