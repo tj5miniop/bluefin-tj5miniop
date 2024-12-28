@@ -5,11 +5,6 @@
 set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
-## Cleanup!
-
-rpm-ostree refresh-md --force
-rpm-ostree cleanup -m
-
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
