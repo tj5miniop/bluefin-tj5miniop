@@ -13,17 +13,17 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install papirus-icon-theme
-rpm-ostree install qemu virt-manager edk2-ovmf
-rpm-ostree install podman distrobox 
+dnf install papirus-icon-theme
+dnf install qemu virt-manager edk2-ovmf
+dnf install podman distrobox 
 # Gnome extension as well as X11 support as it is disabled by default on Fedora 41+
-rpm-ostree install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
-# baobab
-rpm-ostree install filelight papirus-icon-theme
+dnf install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
+# filelight
+dnf install filelight papirus-icon-theme
 # Icon themes and base packages for saucepan (https://github.com/tj5miniop/saucepan)
-rpm-ostree install papirus-icon-theme
+dnf install papirus-icon-theme
 # Install VLC and Others - NOTICE - A web browser is not included 
-rpm-ostree install host-spawn
+dnf install host-spawn
 
 #### Example for enabling a System Unit File
 systemctl enable libvirtd
