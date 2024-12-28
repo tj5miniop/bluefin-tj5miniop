@@ -13,11 +13,11 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 #UPDATE
-dnf upgrade
+## dnf upgrade - Currently not supported with immutable container images
 
 # this installs a package from fedora repos
 dnf install papirus-icon-theme
-dnf install qemu virt-manager edk2-ovmf
+#dnf install qemu virt-manager edk2-ovmf - I don't need QEMU/virt-manager as of yet. Bazzite/Bluefin have a script which will automatically set this up
 dnf install podman distrobox 
 # Gnome extension as well as X11 support as it is disabled by default on Fedora 41+
 dnf install gnome-shell-extension-gsconnect nautilus nautilus-gsconnect gnome-shell-extension-user-theme gnome-session-xsession xorg-x11-server-Xorg
