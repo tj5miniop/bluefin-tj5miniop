@@ -6,6 +6,8 @@
 
 # tj5miniop's Universal Blue Images: A Custom Variant of Universal Blue's Bluefin & Bazzite
 
+# ****NOTICE - I AM CURRENTLY TESTING OUT BUILDING THE IMAGE USING DNF, so DO not expect any big updates for a while
+
 **Bluefin-tj5miniop** is a personalized variant of Universal Blue's **Bluefin** and **Bazzite** OS, developed with additional features and optimizations aimed at creating a stable, capable and bleeding-edge OS for some of my systems, with an NVIDIA image for easier deployment on NVIDIA systems. Once fully developed and tested, this project will integrate advanced capabilities while maintaining a bleeding-edge experience. 
 
 ---
